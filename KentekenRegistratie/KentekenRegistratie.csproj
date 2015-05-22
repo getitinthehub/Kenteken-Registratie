@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="pictures\login.png" />
     <Content Include="RDWMain.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -66,7 +67,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="imgo.png">
+    <Content Include="pictures\imgo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Global.asax" />

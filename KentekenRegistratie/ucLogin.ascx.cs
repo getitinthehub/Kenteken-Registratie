@@ -34,8 +34,8 @@ namespace KentekenRegistratie
             SqlConnection sqlConn = new SqlConnection(ConfigurationManager.ConnectionStrings["rdwDBConnectionString"].ConnectionString);
             SqlCommand sqlComm = new SqlCommand("spLogin", sqlConn);
 
-            sqlComm.Parameters.Add(new SqlParameter("@loginName", System.Data.SqlDbType.VarChar, 25, "EMAIL") { Value = txtGebruikersnaam.Text });
-            sqlComm.Parameters.Add(new SqlParameter("@password", System.Data.SqlDbType.VarChar, 1000, "PASSWORD") { Value = txtWachtwoord.Text });
+            sqlComm.Parameters.Add(new SqlParameter("@GEBRUIKERSNAAM", System.Data.SqlDbType.VarChar, 25, "GEBRUIKERSNAAM") { Value = txtGebruikersnaam.Text });
+            sqlComm.Parameters.Add(new SqlParameter("@WACHTWOORD", System.Data.SqlDbType.VarChar, 1000, "WACHTWOORD") { Value = txtWachtwoord.Text });
 
             sqlComm.CommandType = System.Data.CommandType.StoredProcedure;
             try

@@ -7,8 +7,8 @@ C:\Users\Admin\Desktop\Studie\KentekenRegistratie\KentekenRegistratie\obj\Debug\
 C:\Users\Admin\Desktop\Studie\KentekenRegistratie\KentekenRegistratie\bin\imgo.png
 C:\Users\Niels\Documents\GitHub\Kenteken-Registratie\KentekenRegistratie\obj\Debug\KentekenRegistratie.csprojResolveAssemblyReference.cache
 C:\Users\Niels\Documents\GitHub\Kenteken-Registratie\KentekenRegistratie\obj\Debug\KentekenRegistratie.dll
-C:\Users\Niels\Documents\GitHub\Kenteken-Registratie\KentekenRegistratie\bin\imgo.png
 C:\Users\Niels\Documents\GitHub\Kenteken-Registratie\KentekenRegistratie\bin\KentekenRegistratie.dll.config
 C:\Users\Niels\Documents\GitHub\Kenteken-Registratie\KentekenRegistratie\bin\KentekenRegistratie.dll
 C:\Users\Niels\Documents\GitHub\Kenteken-Registratie\KentekenRegistratie\bin\KentekenRegistratie.pdb
 C:\Users\Niels\Documents\GitHub\Kenteken-Registratie\KentekenRegistratie\obj\Debug\KentekenRegistratie.pdb
+C:\Users\Niels\Documents\GitHub\Kenteken-Registratie\KentekenRegistratie\bin\pictures\imgo.png

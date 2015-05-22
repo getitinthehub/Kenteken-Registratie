@@ -18,7 +18,7 @@
 }
 #MenuContainer{
     height:45px;
-    background-image:url("imgo.png");
+    background-image: url('../pictures/imgo.png');
     width:450px;
 }
 #ContentContainer{
@@ -65,3 +65,13 @@
 #btnLogin{}
 
 /* END OF LOGIN PAGE CONTROLS*/
+
+#btnLogin
+{
+    background-image: url('../pictures/login.png');
+	background-repeat: no-repeat;
+	font-stretch:expanded;
+    color: white;
+	border: 1px solid;
+	border-radius: 5px;
+}

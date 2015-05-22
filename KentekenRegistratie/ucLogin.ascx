@@ -9,5 +9,5 @@
 <asp:TextBox ID="txtWachtwoord" TextMode="Password" runat="server"></asp:TextBox>
 <br />
 <br />
-<asp:Button ID="btnLogin" runat="server" Text="Login" Width="126px" OnClick="btnLogin_Click" />
+<asp:Button ID="btnLogin" CssClass="btnLogin" runat="server" Text="Login" Width="126px" OnClick="btnLogin_Click" />
 
