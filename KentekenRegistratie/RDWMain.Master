@@ -19,13 +19,12 @@
         </div>
         <div id="centerContainer">
             <div id="MenuContainer" >
-                <button id="btnHome" class="btnMenu" runat="server" href="home.aspx">HOME</button>
+                <asp:Button id="btnHome" class="btnMenu" runat="server" OnClick="btnHome_Click" Text="HOME" />
             
-                <button id="btnUitloggen" class="btnMenu" runat="server" href="uitloggen.aspx">UITLOGGEN</button>
+                <asp:Button id="btnUitloggen" class="btnMenu" runat="server" OnClick="btnUitloggen_Click" text="UITLOGGEN" />
             </div>
         <div id="ContentContainer">
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
         </asp:ContentPlaceHolder>
             </div>
             </div>

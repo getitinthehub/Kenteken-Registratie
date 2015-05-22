@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KentekenRegistratie
 {
-    public class Persoon : DBHandler.DBHandlerEntity
+    public class Persoon
     {
         public int BSN { get; private set; }
         public string Voornaam { get; private set; }
@@ -82,14 +82,6 @@ namespace KentekenRegistratie
             return string.Format("{0} {1} {2}",Adres,Woonplaats,Postcode);
         }
 
-        public override Dictionary<string, object> GetData
-        {
-            get { throw new NotImplementedException(); }
-        }
 
-        public override Dictionary<string, object> SetData
-        {
-            set { throw new NotImplementedException(); }
-        }
     }
 }

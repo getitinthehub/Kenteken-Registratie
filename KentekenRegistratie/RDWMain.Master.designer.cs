@@ -46,7 +46,7 @@ namespace KentekenRegistratie {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnHome;
+        protected global::System.Web.UI.WebControls.Button btnHome;
         
         /// <summary>
         /// btnUitloggen control.
@@ -55,7 +55,7 @@ namespace KentekenRegistratie {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlButton btnUitloggen;
+        protected global::System.Web.UI.WebControls.Button btnUitloggen;
         
         /// <summary>
         /// ContentPlaceHolder1 control.

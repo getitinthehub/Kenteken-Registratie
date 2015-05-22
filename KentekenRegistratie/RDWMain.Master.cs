@@ -16,5 +16,15 @@ namespace KentekenRegistratie
                 btnUitloggen.Visible = false;
             }
         }
+
+        protected void btnUitloggen_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("uitloggen.aspx");
+        }
+
+        protected void btnHome_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("home.aspx");
+        }
     }
 }

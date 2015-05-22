@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KentekenRegistratie
 {
-    public class Kenteken : DBHandler.DBHandlerEntity
+    public class Kenteken
     {
         public int BSN { get; private set; }
         public string KentekenID { get; private set; }
@@ -25,14 +25,6 @@ namespace KentekenRegistratie
             IsGestolen = isGestolen;
         }
 
-        public override Dictionary<string, object> GetData
-        {
-            get { throw new NotImplementedException(); }
-        }
 
-        public override Dictionary<string, object> SetData
-        {
-            set { throw new NotImplementedException(); }
-        }
     }
 }
